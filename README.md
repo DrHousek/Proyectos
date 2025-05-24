@@ -12,5 +12,12 @@ Este proyecto corresponde al backend del trabajo final del curso. Ha sido desarr
 - Swagger (documentación de la API)
 - Autenticación con JWT
 
-## Estructura del proyecto
+# Autores
+Proyecto realizado por:
+
+Ander Sarmiento
+
+Luis Tatis
+
+Andrés Larrada
 
