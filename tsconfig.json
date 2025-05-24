@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",                       // Apunta a una versión moderna de JS
+    "module": "CommonJS",                     // Requerido para Node.js (aunque uses tsx)
+    "outDir": "./dist",                       // Carpeta de salida
+    "rootDir": "./src",                       // Carpeta de entrada
+
+    "strict": true,                           // Activa todas las verificaciones estrictas
+    "esModuleInterop": true,                  // Permite importar librerías CommonJS como 'import express from "express"'
+    "forceConsistentCasingInFileNames": true, // Evita errores de mayúsculas/minúsculas entre OS
+    "moduleResolution": "node",               // Importación de módulos como Node.js
+    "resolveJsonModule": true,                // Permite importar archivos .json
+    "skipLibCheck": true,                     // Acelera la compilación al ignorar tipos de librerías
+
+    "noImplicitAny": true,                    // Evita tipos 'any' implícitos
+    "noUnusedLocals": true,                   // Limpieza de código no usado
+    "noUnusedParameters": true                // Detecta parámetros no utilizados
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
